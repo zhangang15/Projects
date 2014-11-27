@@ -1,0 +1,4 @@
+I implement a Naive Bayes classifier in Python that can distinguish between spam and non-spam, or "ham". Specifically, this program is able to train on a set of spam and a set of "ham." This training includes counting the frequency of each token in both spam and ham corpora. 
+
+
+I create a class named Naïve_Bayes, and pass 4 directories to it. In this class, I define three methods, the first one is to do spam test while the second one is to do ham test. After running test, all the results will be stored in a global dictionary. The key of dictionary is word, the related value is a list, first part of list is frequency of ham files, and second part of list is spam ones. In the classify method, I use Naïve Bayes theom to calculate the probability of each word showing in the target mail. Then take the first 300 biggest probability words to get the final probability, if this probability is greater than 0.9, then is a spam.

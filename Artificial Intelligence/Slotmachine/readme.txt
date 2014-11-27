@@ -1,0 +1,1 @@
+I use a simulation of slotmachnie. I have done a sufficient number of iterations to convince I have found good results.

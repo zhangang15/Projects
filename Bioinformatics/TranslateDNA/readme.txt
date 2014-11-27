@@ -1,0 +1,1 @@
+I write this program that translates a sequence of nucleotides into the amino acid sequences of all 6 possible ORFs.

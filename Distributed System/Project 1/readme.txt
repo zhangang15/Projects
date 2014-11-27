@@ -1,0 +1,1 @@
+These are the Bully Algorithm and the Invitation Algorithm implemented by Python, which using ZeroRPC to comunicate with other servers.
